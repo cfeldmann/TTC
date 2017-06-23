@@ -27,4 +27,6 @@ A class for each station with methods to describe the station (isAccessible(), h
 
 However, after looking at what the API needed to do, I remembered an article I read a while back that talking about YAGNI (You Ain't Gonna Need It) and re-thought my approach.  Since the only needed function of the API was to tell the user when the next train is, my original thoughts on the data model were all wrong.  I'd be churning out over 60 near-identical classes for no good reason.
 
-I redesigned the data model to be driven more by configuration, so that a station's direction capabilities were defined by whether or not it had a schedule for that direction.  Adding or removing a station from my model is as easy as adding another element to the Station enum and then adding a schedule for it.  The Main class in the test package contains examples of how to use it.
+I redesigned the data model to be driven more by configuration, so that a station's direction capabilities were defined by whether or not it had a schedule for that direction.  Adding or removing a station from my model is as easy as adding another element to the Station enum and then adding a schedule for it.
+
+The Main class in the test package contains examples of how to use the API.
