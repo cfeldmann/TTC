@@ -1,0 +1,82 @@
+package com.christine.ttc;
+
+/**
+ * Subway stations in the TTC.
+ */
+public enum Station {
+
+    // Line 1
+    SHEPPARDWEST,
+    WILSON,
+    YORKDALE,
+    LAWRENCEWEST,
+    GLENCAIRN,
+    EGLINTONWEST,
+    STCLAIRWEST,
+    DUPONT,
+    SPADINA,
+    STGEORGE,
+    MUSEUM,
+    QUEENSPARK,
+    STPATRICK,
+    OSGOODE,
+    STANDREW,
+    UNION,
+    KING,
+    QUEEN,
+    DUNDAS,
+    COLLEGE,
+    WELLESLEY,
+    BLOORYONGE,
+    ROSEDALE,
+    STCLAIR,
+    EGLINTON,
+    LAWRENCE,
+    YORKMILLS,
+    SHEPPARDYONGE,
+    NORTHYORKCENTRE,
+    FINCH,
+
+    // Line 2
+    KIPLING,
+    ISLINGTON,
+    ROYALYORK,
+    OLDMILL,
+    JANE,
+    RUNNYMEDE,
+    HIGHPARK,
+    KEELE,
+    DUNDASWEST,
+    LANDSDOWNE,
+    DUFFERIN,
+    OSSINGTON,
+    CHRISTIE,
+    BATHURST,
+    BAY,
+    SHERBOURNE,
+    CASTLEFRANK,
+    BROADVIEW,
+    CHESTER,
+    PAPE,
+    DONLANDS,
+    GREENWOOD,
+    COXWELL,
+    WOODBINE,
+    MAINSTREET,
+    VICTORIAPARK,
+    WARDEN,
+    KENNEDY,
+
+    // Line 3
+    LAWRENCEEAST,
+    ELLESMERE,
+    MIDLAND,
+    SCARBOROUGHCENTRE,
+    MCCOWAN,
+
+    // Line 4
+    BAYVIEW,
+    BESSARION,
+    LESLIE,
+    DONMILLS
+}
