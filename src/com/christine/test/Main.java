@@ -5,24 +5,7 @@ import com.christine.ttc.*;
 import java.time.LocalTime;
 
 /**
- * Exercise:
- *
- * Given the following subway map, break it down into individual components and model these
- * components using java classes:
- *
- * https://www.ttc.ca/Subway/interactive_map/interactive_map.jsp#
- *
- * When building your data model, try to build it with the following in mind:
- *
- * 1. Implement an API that uses your data model.
- *
- * 2. The API should be able to tell a user when the next train will arrive at a specific station,
- *    given a time and direction (north, south, east, west).
- *
- * 3. Assume that a schedule will be provided indicating when a train will arrive at each station.
- *
- * 4. As per the API, the data should account for direction (north, south, east, west) and handle
- *    stations that have intersecting lines.
+ * This main class is used for testing the API and showing examples of how it's used.
  */
 public class Main {
 
